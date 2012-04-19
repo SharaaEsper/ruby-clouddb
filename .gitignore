@@ -1,0 +1,3 @@
+# IDE files to ignore
+*.iml
+.idea/*
