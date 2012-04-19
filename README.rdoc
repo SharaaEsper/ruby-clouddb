@@ -1,0 +1,45 @@
+= Rackspace Cloud Databases
+
+== Description
+
+This is a Ruby interface into the Rackspace[http://rackspace.com/] {Cloud Databases}[http://www.rackspace.com/blog/announcing-the-rackspace-mysql-cloud-database-private-beta/] service.
+
+== Installation
+
+This source is available on Github[http://github.com/rackspace/ruby-clouddb/] and the gem is available on RubyGems[http://rubygems.org/] (coming soon..).  To install it, do
+
+  sudo gem install clouddb
+  
+To use it in Bundler, add the following statement to your Gemfile
+
+  gem "clouddb"
+  
+== RDOC Documentation
+
+Find the latest RDoc documentation for this library at http://rdoc.info/github/rackspace/ruby-clouddb/master/frames
+
+== API Documentation
+
+This binding attempts to conform to the latest API specifications. For current API documentation, visit http://docs.rackspacecloud.com/api/
+
+== Examples
+
+See the class definitions for documentation on specific methods and operations.
+
+  require 'rubygems'
+  require 'clouddb'
+
+  # Authenticate to the Rackspace Cloud, and choose to manage databases in the Dallas/Ft. Worth datacenter
+  db = CloudDB::Connection.new(:username => "MY_USERNAME", :api_key => "MY_API_KEY", :region => :dfw)
+
+== Authors
+
+{Jorge Miramontes}[https://github.com/jorgem1106/] <jorge.miramontes@rackspace.com>
+{H. Wade Minter}[https://github.com/minter/] <minter@lunenburg.org>
+
+== License
+
+See COPYING for license information.
+Copyright (c) 2012, Rackspace US, Inc.
+  
+  

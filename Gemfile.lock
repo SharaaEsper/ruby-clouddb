@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    clouddb (0.1.0)
+      json
+      typhoeus
+
+GEM
+  specs:
+    json (1.6.6)
+    mime-types (1.18)
+    typhoeus (0.3.3)
+      mime-types
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  clouddb!
